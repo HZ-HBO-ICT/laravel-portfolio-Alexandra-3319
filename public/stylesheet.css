@@ -1,0 +1,351 @@
+/* The CSS under this is for every page. */
+
+body {
+    background-image: url("photo/backgroundfoto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Georgia';
+    margin: 0px;
+    color: white;
+}
+
+#seethroughBackground-All {
+    margin: 20px 200px 175px 200px;
+    border-radius: 12px;
+}
+
+#navigationMenu-all {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+#navigationMenu-all a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Rampart One', cursive;
+    }
+
+#navigationMenu-all a:hover {
+    background-color: rgb(255, 89, 111);
+}
+
+.navigationMenu-all a {
+    margin: 0px -2px 0px 0px;
+    padding: 7.5px 30px 7.5px 30px;
+    overflow: hidden;
+    border-color: white;
+    border-width: 2px;
+    border-style: ridge;
+    display: block;
+    float: left;
+}
+
+#alexandraLogo-all {
+    color: rgb(255, 89, 111);
+    text-align: right;
+    margin-right:10px;
+    margin-top: -70px;
+    font-family: 'Rampart One', cursive;
+    font-size: 25px;
+}
+
+.blogTitle-all {
+	text-align: center;
+	margin-top: 70px;
+    font-family: 'Rampart One', cursive;
+}
+
+.blogTitle-all h1{
+	font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.underTitle-all {
+	text-align: center;
+	font-size: 30px;
+    font-family: 'Rampart One', cursive;
+}
+
+.image-all{
+    border-color: rgb(255, 89, 111);
+    border-style: outset;
+    border-width: thick;
+    transition: all .1s ease;
+    height: auto;
+}
+
+.image-all:hover {
+	transform: scale(1.4);
+}
+
+/* The Index page. */
+
+#gridbox-index{
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "blog1IN image1IN"
+      "blog2IN image1IN"
+      "blog2IN image2IN"
+      "blog3IN image2IN";
+  }
+
+.posts-index{
+    text-align: center;
+    padding: 20px;
+    list-style-type: none;
+	border-radius: 30px;
+	border-style: outset;
+	border-width: thick;
+}
+.myMotivationForICT-index {
+	background-color: #6ce4e4;
+	width: 75%;
+    grid-area: blog1IN;
+}
+
+.whyDoesICTFitMe-index {
+	background-color:  rgb(255, 89, 111);
+	width: 75%;
+    grid-area: blog2IN;
+}
+
+.whatIHaveLearnedUpUntilNow-index{
+	background-color: #bb65a8;
+	width: 75%;
+    grid-area: blog3IN;
+}
+
+.HZLogo-index {
+	width: 80%;
+    grid-area: image2IN;
+}
+
+.selfie-index{
+	width: 80%;
+    grid-area: image1IN;
+}
+
+/* The profile page */
+
+#gridBox-profile{
+    width: 100%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 70% 35%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "blogBF image1BF"
+      "blogBF image2BF"
+      "image3BF image3BF";
+}
+
+.introduction-profile {
+    background-color: #85a0fa;
+    height: 750px;
+    padding: 20px;
+    border-radius: 30px;
+    border-style: outset;
+    border-width: thick;
+    width: 90%;
+    grid-area: blogBF;
+}
+
+.selfie-profile {
+    width: 70%;
+    grid-area: image1BF;
+}
+
+.babyPhoto-profile {
+    width: 70%;
+    grid-area: image2BF;
+}
+
+.surfPhoto-profle {
+    width: 30%;
+    grid-area: image3BF;
+}
+
+/* The dashboard page */
+
+.table-dashboard,
+.tableHeader-dashboard,
+.tableData-dashboard{
+    background-color: #6dc5ff;
+    width: auto;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    color: black;
+    border-collapse: collapse;
+    transition: all .1s ease;
+}
+
+.table-dashboard,
+.tableData-dashboard:hover{
+    transform: scale(1.2);
+}
+
+.table-dashboard{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.tableData-dashboard{
+    width: 150px;
+}
+
+.asideMenu-ul-dashboard{
+    list-style-type: none;
+    text-align: center;
+    width: 800px;
+    height: auto;
+    background-color: #fb87a0;
+    padding: 10px;
+    border-style: outset;
+    border-width: thick;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 25px;
+}
+.asideMenu-il-dashboard h2{
+    margin: 0px;
+}
+
+.completed-dashboard{
+    background-color: rgb(127, 250, 197);
+}
+
+.inProgress-dashboard{
+    background-color:rgb(247,255,129);
+}
+
+.unCompleted-dashboard{
+    background-color:rgb(252,95,95);
+}
+
+/* The FAQ page */
+
+#griBox-faq {
+    font-size: 20px;
+    width: 75%;
+    margin: auto auto auto auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto, auto ,auto;
+    grid-gap: 70px;
+    text-align: center;
+}
+
+.faqPosts-faq {
+    padding: 10px;
+    border-style: outset;
+    border-width: thick;
+    border-radius: 30px;
+    width: 350px;
+    transition: all .1s ease;
+    overflow: auto;
+}
+
+.faqPosts-faq:hover {
+    transform: scale(1.4);
+}
+
+.faqPost1Color-faq {
+    background: rgb(255, 89, 111);
+}
+
+.faqPost2Color-faq {
+    background: #a777ff;
+}
+
+.faqPost3Color-faq {
+    background: #6dc5ff;
+}
+
+.faqPost4Color-faq {
+    background: #fb87a0;
+}
+
+.faqPost5Color-faq {
+    background: #bb65a8;
+}
+
+/* The blog-feed page */
+
+#gridbox-blog-feed{
+width: 100%;
+display: grid;
+grid-gap: 10px;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto auto auto;
+grid-template-areas:
+  "blog1BF blog1BF image1BF"
+  "image2BF blog2BF blog2BF"
+  "blog3BF blog3BF blog3BF"
+  "image3BF blog4BF blog4BF"
+  "blog5BF blog5BF image4BF";
+}
+
+.blogposts-blog-feed{
+    text-align: center;
+    padding: 20px;
+    list-style-type: none;
+    border-radius: 30px;
+    border-style: outset;
+    border-width: thick;
+    width: 650px;
+}
+
+.blogPost1-blog-feed{
+    background-color: #6dc5ff;
+    grid-area: blog1BF;
+}
+
+.blogPost2-blog-feed {
+    background-color: #fb87a0;
+    grid-area: blog2BF;
+}
+
+.blogPost3-blog-feed {
+    background-color: #85a0fa;
+    grid-area: blog3BF;
+}
+
+.blogPost4-blog-feed{
+    background-color: rgb(255, 89, 111);
+    grid-area: blog4BF;
+}
+
+.blogPost5-blog-feed {
+    background-color: #a777ff;
+    grid-area: blog5BF;
+}
+
+.HZLogo-blog-feed {
+    width: 350px;
+    grid-area: image1BF;
+}
+
+.technasiumLogo-blog-feed {
+    width: 350px;
+    grid-area: image2BF;
+}
+
+.oracleLogo-blog-feed {
+    width: 320px;
+    grid-area: image3BF;
+}
+
+.softwareEngineer-blog-feed {
+    width: 320px;
+    grid-area: image4BF;
+}

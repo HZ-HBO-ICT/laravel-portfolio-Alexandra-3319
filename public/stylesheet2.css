@@ -1,0 +1,85 @@
+body {
+    background-image: url("photo/backgroundfoto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+#seethrough-background {
+    margin: 20px 200px 175px 200px;
+    border-radius: 12px;
+}
+
+/*/ #contact {
+    margin: 0px;
+    padding: 7.5px 30px 7.5px 30px;
+    overflow: hidden;
+    border-color: white;
+    border-width: 2px;
+    border-style: ridge;
+    float: right;
+    display: block;
+    transition: 0s;
+}
+
+#contact:hover {
+    background-color: #8dceae;
+}/*/
+#nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#nav a { color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #8dceae;
+}
+
+.nav a {
+    margin: 0px -2px 0px 0px;
+    padding: 7.5px 30px 7.5px 30px;
+    overflow: hidden;
+    border-color: white;
+    border-width: 2px;
+    border-style: ridge;
+    display: block;
+    float: left;
+    color: white;
+}
+
+.blogtitle {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.blogtitle h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.undertitle {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+img{
+    border-color: darkviolet;
+}
+
+/*/footer{
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: 2.5rem;
+    clear: both;
+} /*/
