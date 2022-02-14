@@ -12,8 +12,8 @@ class BlogController
      *
      * @return Application|Factory|View
      */
-    public function show()
+    public function show() : Application|Factory|View
     {
-        return view ('blog');
+        return view('blog');
     }
 }

@@ -12,8 +12,8 @@ class ProfileController
      *
      * @return Application|Factory|View
      */
-    public function show()
+    public function show() : Application|Factory|View
     {
-        return view ('profile');
+        return view('profile');
     }
 }

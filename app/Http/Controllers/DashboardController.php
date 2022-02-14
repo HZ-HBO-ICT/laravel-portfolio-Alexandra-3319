@@ -12,8 +12,8 @@ class DashboardController
      *
      * @return Application|Factory|View
      */
-    public function show()
+    public function show() : Application|Factory|View
     {
-        return view ('dashboard');
+        return view('dashboard');
     }
 }

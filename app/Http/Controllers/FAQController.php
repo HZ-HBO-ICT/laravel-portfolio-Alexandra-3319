@@ -12,8 +12,8 @@ class FAQController
      *
      * @return Application|Factory|View
      */
-    public function show()
+    public function show() : Application|Factory|View
     {
-        return view ('faq');
+        return view('faq');
     }
 }
