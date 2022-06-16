@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
-    <title>Alexandra's Home</title>
+    <title>Alexandra's Dashboard</title>
     <meta name="descriptiion"
           content="Alexandra's motivation for the HBO ICT study program at HZ university of applied sciences and why it fits me">
 </head>
@@ -23,7 +23,7 @@
 <body>
 <nav>
     <ul id="navigationMenu-all">
-        <li class="navigationMenu-all"><a href="/">Home</a></li>
+        <li class="navigationMenu-all"><a href="/">Dashboard</a></li>
         <li class="navigationMenu-all"><a href="/profile">Profile</a></li>
         <li class="navigationMenu-all"><a href="/dashboard">Dashboard</a></li>
         <li class="navigationMenu-all"><a href="/faq">FAQ</a></li>
